@@ -28,5 +28,5 @@ yesButtom.addEventListener("click", () =>{
 })
 
 function aceitou(){
-    window.location.href = "surpresa.html"
+    window.location.href = "fotos.html"
 }
