@@ -63,8 +63,7 @@ header h1{
 }
 
 .gallery-items:hover{
-     transform: scale(1.2);
-
+     transform: scale(1.1);
     object-fit: contain;
 }
 

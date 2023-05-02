@@ -30,11 +30,11 @@ function redirect(evento){
     console.log(evento);
     if (evento === 1) {
         setTimeout(() => hideLoading(), 2000);
-        return window.location.href = "pedido.html"
+        return window.location.href = "pages/pedido.html"
         
     } else {
         setTimeout(() => hideLoading(), 2000);
-        return window.location.href = "surpresa.html"
+        return window.location.href = "pages/surpresa.html"
     }
 }
 
