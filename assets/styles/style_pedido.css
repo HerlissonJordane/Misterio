@@ -27,7 +27,7 @@ body{
     z-index: 2;
     display: flex;
     flex-direction: column;
-    background: url(../media/img/bg-pedido.jpg) fixed center;
+    background: url(/assets/midia/bg-pedido.jpg) fixed center;
     background-size: contain;
 }
 
