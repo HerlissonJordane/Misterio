@@ -14,7 +14,6 @@ function showLoading(){
     div2.appendChild(label);
 
     document.body.appendChild(div);
-    console.log("bateu 100");
 }
 
 
