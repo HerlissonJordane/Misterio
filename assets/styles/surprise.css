@@ -25,11 +25,13 @@ header h1{
 }
 
 .bg_video{
-    position: relative; 
+    position: relative;
+    top: 25px;
+    left: 25%;
     height:100%;
-    width: 100%;
+    width: 50%;
     z-index: -100;
-    margin: 0;
+    margin-bottom: 50px;
     background-size: cover;
 }
 

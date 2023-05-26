@@ -14,6 +14,16 @@ button.addEventListener("click", () => {
 
 })
 
+document.addEventListener("keydown", function(event){
+    if (event.keyCode === 13) {
+        const nome = document.querySelector("#name");
+        const value = nome.value;    
+        
+        let evento = verificaNome(value);
+        redirect(evento);
+    }
+})
+
 //VERIFICA QUAL NOME FOI DIGITADO
 function verificaNome(nomeDigitado){
     let retorno;
