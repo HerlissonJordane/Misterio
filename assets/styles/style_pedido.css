@@ -22,7 +22,7 @@ body{
 .question{
     position: absolute;
     inset: 6px;
-    padding: 50px 40px;
+    /*padding: 50px 40px;*/
     border-radius: 8px;
     z-index: 2;
     display: flex;
@@ -71,8 +71,8 @@ body{
 
 .titulo{
     max-width: 800px;
-    margin: 50px;
-    padding: 40px;
+    margin: 50px 10px 50px;
+    padding: 40px 25px 40px;
     font-size: 30px;
     font-family: 'Tilt Neon', cursive;
     color: rgb(255, 255, 255);
@@ -87,9 +87,9 @@ body{
 }
 
 .button{
-    padding: 40px;
+    padding: 40px 15px 40px;
     max-width: 800px;
-    margin: 50px;
+    margin: 50px 0px 50px;
     margin-top: 200px;
     display: flex;
     justify-content: space-around;
