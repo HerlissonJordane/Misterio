@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
     <title>Fotos</title>
 
     <link rel="stylesheet" href="../styles/fotos.css">
@@ -20,6 +23,8 @@
         <video class="bg_video" autoplay muted loop >
             <source src="../midia/Valentine09.mkv">
         </video>
+
+        <audio src="../midia/music.mp3"></audio>
 
         <div class="gallery-container">
             <a class="gallery-items">
@@ -69,11 +74,11 @@
             </a>
 
         </div>
+
+        <div id="dialog-confirm" title="Então, vamos tomar uma?"></div>
     </main>
 
-    <!--<div class="box">
-        <h2>teste</h2>
-    </div>-->
+    <script src="../js/fotos.js"></script>
 
 </body>
 </html>
