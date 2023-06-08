@@ -26,9 +26,9 @@ header h1{
 
 .bg_video{
     position: relative;
-    top: 25px;
+    top: -10px;
     left: 15%;
-    height:80vh;
+    height:84vh;
     width: 70vw;
     z-index: -100;
     margin-bottom: 50px;
