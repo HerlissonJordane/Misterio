@@ -1,5 +1,7 @@
 # Misterio
-Pequeno projeto somente para pedir minha ficante em namoro. 
+Pequeno projeto somente para pedir minha ficante em namoro.
+
+Digitanto o nome dela _**_Cintia_**_ da pra ver a sequência
 
 Github Pages: https://herlissonjordane.github.io/Misterio/
 
